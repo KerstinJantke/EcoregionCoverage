@@ -14,13 +14,13 @@ More information about the data and analyses is provided in the associated resea
 
 ### Data
 
-We included these countries in our analysis: Brazil (BRA), Chile (CHL), Gabon (GAB), Germany (DEU), Indonesia (IDN), South Korea (KOR), Mexico (MEX), Namibia (NAM), and Nepal (NPL). The ecoregion coverage data for 2010 to 2020 for each assessed country are made available in the folders ISO3-Code_Stats separately for terrestrial and marine realms. The data provide the ecoregions names, the total area (ai) and the protected area (pi) of each ecoregion present in a country.  
+We included these countries in our analysis: Brazil (BRA), Chile (CHL), Gabon (GAB), Germany (DEU), Indonesia (IDN), South Korea (KOR), Mexico (MEX), Namibia (NAM), and Nepal (NPL). The ecoregion coverage data for 2010 to 2020 for each assessed country are made available in the folders ISO3-Code_Stats separately for terrestrial and marine ecoregions. The data provide the ecoregions names, the total area (ai) and the protected area (pi) of each ecoregion present in a country in km².  
 
 Protected area data originate from the <a href="https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA">World Database on Protected Areas (WDPA)</a>. We obtained spatial data on terrestrial ecoregions from the <a href="https://ecoregions.appspot.com/">Ecoregions 2017 Resolve map</a> and on marine ecoregions from the <a href="https://data.unep-wcmc.org/datasets/38">Marine Ecoregions and Pelagic Provinces of the World datasets</a>.  
 
 ### Code
 
-The R script <a href="https://github.com/KerstinJantke/EcoregionCoverage/blob/main/Ecoregion_analyses.R">Ecoregion_analyses.R</a> calculates total protected area coverage, coverage of terrestrial and marine ecoregions, and the Mean Target Achievement metric for the terrestrial and marine protected area estates. The R script <a href="https://github.com/KerstinJantke/EcoregionCoverage/blob/main/Ecoregion_analyses_plots.R">Ecoregion_analyses_plots.R</a> creates ecoregion coverage graphs depicting the increase in protection between 2010 and 2020. We calculated the Mean Target Achievement metric for the terrestrial and marine realm in each country for 2010 to 2020 based on the <a href="https://github.com/KerstinJantke/ConsTarget/tree/master">ConsTarget R package</a>. 
+The R script <a href="https://github.com/KerstinJantke/EcoregionCoverage/blob/main/Ecoregion_analyses.R">Ecoregion_analyses.R</a> calculates total protected area coverage, coverage of terrestrial and marine ecoregions, and the Mean Target Achievement metric for the terrestrial and marine protected area estates of each country. The R script <a href="https://github.com/KerstinJantke/EcoregionCoverage/blob/main/Ecoregion_analyses_plots.R">Ecoregion_analyses_plots.R</a> creates ecoregion coverage graphs depicting the increase in protection between 2010 and 2020. We calculated the Mean Target Achievement metric for the terrestrial and marine realm in each country for 2010 to 2020 based on the <a href="https://github.com/KerstinJantke/ConsTarget/tree/master">ConsTarget R package</a>. 
 
 ## Citation
 
